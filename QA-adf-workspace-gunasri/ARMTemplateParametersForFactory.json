@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "QA-adf-workspace-gunasri"
+		},
+		"LS_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"LS_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://bankingdatalakegunasri.dfs.core.windows.net/"
+		},
+		"Ls_Onprem_properties_typeProperties_host": {
+			"value": "C:\\Banking Analytics project"
+		},
+		"Ls_Onprem_properties_typeProperties_userId": {
+			"value": "DESKTOP-GISCLTN\\gunas"
+		},
+		"Ls_keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://adf-keyvault-gunasri.vault.azure.net/"
+		}
+	}
+}
