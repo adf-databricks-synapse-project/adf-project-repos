@@ -1,0 +1,15 @@
+{
+	"name": "QA-adf-workspace-gunasri",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "409d7246-170d-451e-b020-f19968e59b65",
+		"tenantId": "9941e16e-2b40-42c8-9202-384e7e88773f"
+	}
+}
